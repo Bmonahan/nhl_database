@@ -10,20 +10,7 @@
     <title>Player DB</title>
     
     <link rel="stylesheet" type ="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    
-    <style type="text/css">
-		/* 
-.container {
-			width: 300px;
-			clear: both;
-		}
-		.container input {
-			width: 100%;
-			clear: both;
-		}
- */
-
-    </style>
+   
 </head>
 <body>
 
