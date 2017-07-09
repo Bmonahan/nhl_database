@@ -197,7 +197,7 @@
         <div id="add" class="collapse">
         <div class='jumbotron'>
             <h3>Add a Player</h3>
-            <form action="add.php" method="GET">
+            <form action="add.php" method="GET" id="add">
                 <div class="input-group">
                     <span class="input-group-addon">ID</span>
                     <input class="form-control" type="text" name="id" required/><br>

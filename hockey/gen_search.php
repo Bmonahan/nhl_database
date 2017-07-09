@@ -55,6 +55,7 @@ and open the template in the editor.
 			}
 
 			$query = $_GET['query'];
+			$query = preg_replace("#[^a-z]#i", "", $query);
 			$teamCode = $_GET['teamCode'];
 			$country = "~";
 			$pos = $_GET['pos'];
