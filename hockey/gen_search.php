@@ -58,7 +58,7 @@ and open the template in the editor.
 			$teamCode = $_GET['teamCode'];
 			$country = "~";
 			$pos = $_GET['pos'];
-			$any = "AAA";
+			$any = "ALL";
 			$anyC = "~";
 			$anyP = "~";
 			if($teamCode == $any and  $pos == $anyP)
@@ -204,7 +204,7 @@ and open the template in the editor.
 
 			});
 		</script>
-		<form action="index.php">
+		<form action="nhl_database/hockey/index.php">
         	<input type="submit" value="Back" />
    		</form>
    		</body>
